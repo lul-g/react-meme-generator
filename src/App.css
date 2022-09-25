@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 80%);
+}
+.thin {
+    font-weight: 300;
+}
+.App {
+    background-color: black;
+    color: white;
+    width: 55%;
+    margin: 5rem auto;
+    font-family: 'karla', sans-serif;
+}
+.flex {
+    display: flex;
+}
+.header {
+    align-items: center;
+    justify-content:space-between;
+    padding: 1.5rem 3rem;
+}
+.header h2 {
+    text-transform: capitalize;
+    font-weight: bold   ;
+}
+.header img {
+    width: 15%;
+    margin-right: .5rem;
+}
+.left {
+    align-items: center;
+}
+.meme {
+    background-color: hsl(0, 0%, 30%);
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.form {
+    flex-direction: column;
+    padding: 0 0 3rem 0;
+    align-items: center;
+}
+input {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    margin: 1rem .5rem;
+    width: 17rem;
+}
+.btn {
+    align-items: center;
+    justify-content: center;
+}
+button {
+    padding: .5rem 1rem;
+    width: 35rem;
+}
+i {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+.input {
+    justify-content: space-between;
+}
+.img {
+    width: 35rem;
+    display: flex;
+    border: 5px solid black;
+}
+.meme img {
+    align-items: center;
+    height: 22rem;
+    width: 100%;
+}
