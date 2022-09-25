@@ -1,4 +1,4 @@
-import React, { useState } from 'React'
+import React, { useState } from 'react'
 import img from "../assets/Troll Face.png"
 import '../App.css'
 import memeData from '../memesData'
